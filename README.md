@@ -27,3 +27,16 @@ List of commits in chronological order with their long jumbly names.
 
 # Next Day and Onward
 ### $ git pull origin master
+If any changes were made on the remote master branch, this will integrate all the changes with your local repository. This also makes sure you start the day with a clean copy of whatever it is you happen to be doing.
+### $ git fetch origin
+If working with other people, this will tell you if any changes have been made but will not integrate them immediately.
+### $ git pull origin master
+yoloswag all those changes into your copy.
+### $ git branch <newbranchname>
+Creates a new branch, which is a good idea to do all the damn time whenever you try something diff, add new stuff, whatevers. Even bug fixing. Create a new branch.
+### $ git checkout <newbranchname>  
+Switches you to that other branch so you are no longer working directly on the safe and functional master branch, for example. All commits and changes are recorded on the checked out branch and kept separate so you can play around as much as you want.
+### $ git checkout master
+Switches back to the master branch so that you can...
+### $ git merge <newbranchname>
+This will merge all the cool new additions you've made under newbranch into the master branch
