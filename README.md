@@ -2,10 +2,17 @@
 Simple git command cheat sheet for the everday beginner who is likely their only contributor and doesn't need to get too deep.
 
 # Project Start
+Two methods here, initializing local folders as a repository and then creating the remote repository online, or cloning an existing repository online to your local directories.
+
 ### $ git init
-Initializes the directory as a repository.
+Initializes the local directory as a local repository.
+### Then create a new repo online: [https://github.com/new](github.com/new)
+### $ git remote add origin https://github.com/YourAccount/RepoYouMade.git
+This tells your local git repo that the name "origin" will be this specific url.
+
+### Or this instead of init:
 ### $ git clone *remote-url*
-Creates a local clone of whatever repository is at the URL.
+Creates a local clone of whatever remote repository is at the URL.
 
 # While Working
 ### $ git status
@@ -17,7 +24,7 @@ Commit to updating the staged files on the repository, always leave a note with 
 ### $ git status
 Check the status again to verify only the staged files were committed and everything is as planned.
 ### $ git push origin master
-Pushes the changes to origin and the branch named "master"
+Pushes the changes to origin and the branch named master so that others can see it and work on it as well.
 
 # Status Checks
 ### $ git status
