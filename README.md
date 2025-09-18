@@ -6,7 +6,7 @@ Two methods here, initializing local folders as a repository and then creating t
 
 ### $ git init
 Initializes the local directory as a local repository.
-### Then create a new repo online: [https://github.com/new](github.com/new)
+### Then create a new repo online: [https://github.com/new](https://github.com/new)
 ### $ git remote add origin https://github.com/YourAccount/RepoYouMade.git
 This tells your local git repo that the name "origin" will be this specific url.
 
